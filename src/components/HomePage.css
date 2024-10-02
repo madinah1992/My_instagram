@@ -1,0 +1,70 @@
+/* src/components/HomePage.css */
+.homepage {
+  display: flex;
+}
+
+.homepage__sidebarLeft {
+  width: 90px;
+  border-right: 1px solid #ddd;
+  padding: 30px;
+}
+
+.homepage__logo {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.homepage__navList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.homepage__navList li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.homepage__navList li:hover {
+  color: #0095f6;
+}
+
+.homepage__feed {
+  flex: 1;
+  padding: 20px;
+}
+
+
+
+.user__info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.suggestions {
+  margin-top: 20px;
+}
+
+.feed__container {
+  max-height: 80vh; /* Set a maximum height (80% of the viewport height) */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding-right: 15px; /* Optional: Add padding for better scrolling experience */
+  scrollbar-width: thin; /* Firefox: Make the scrollbar thinner */
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent; /* Firefox: Customize scrollbar colors */
+}
+
+.feed__container::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar (for Chrome/Safari) */
+}
+
+.feed__container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3); /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded scrollbar */
+}

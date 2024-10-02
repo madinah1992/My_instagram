@@ -1,0 +1,24 @@
+/* src/components/Feed.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .post {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .postContent {
+    color: #333;
+  }
+  
+  .postUser {
+    color: #555;
+    font-size: 0.875rem;
+  }
+  

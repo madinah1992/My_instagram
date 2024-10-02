@@ -1,0 +1,42 @@
+/* src/components/Settings.css */
+.settings {
+    padding: 20px;
+  }
+  
+  .settings__header {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .settings__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .settings__form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .settings__form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .settings__form button {
+    padding: 10px;
+    border: none;
+    background-color: #0095f6;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .settings__form button:hover {
+    background-color: #007bb5;
+  }
+  

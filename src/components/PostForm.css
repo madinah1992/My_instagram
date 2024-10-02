@@ -1,0 +1,37 @@
+.postForm {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.postForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.postForm textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.postForm input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.postForm button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0095f6;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.postForm button:disabled {
+  background-color: #ccc;
+}

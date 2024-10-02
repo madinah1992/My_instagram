@@ -1,0 +1,29 @@
+/* src/components/Notifications.css */
+.notifications {
+    padding: 20px;
+  }
+  
+  .notifications__header {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .notifications__list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notifications__item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .notifications__item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .notifications__item p {
+    margin: 0;
+  }
+  

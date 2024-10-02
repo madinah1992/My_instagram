@@ -1,0 +1,33 @@
+.post {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .post__image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post__info {
+    padding: 10px;
+  }
+  
+  .post__actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .post__comments {
+    margin: 10px 0;
+  }
+  
+  .post__comments p {
+    margin: 0;
+    padding: 0;
+  }
+  

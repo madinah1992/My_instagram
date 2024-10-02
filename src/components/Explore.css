@@ -1,0 +1,48 @@
+/* src/components/Explore.css */
+.explore {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for contrast */
+  max-width: 1200px; /* Limiting max width for better readability */
+  margin: 0 auto; /* Centering the container */
+}
+
+.explore__header {
+  margin-bottom: 20px;
+  font-size: 28px; /* Larger font size for the header */
+  font-weight: 700; /* Bold text for emphasis */
+  color: #343a40; /* Darker color for the header */
+  text-align: center; /* Center align header text */
+}
+
+.explore__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust grid columns */
+  gap: 15px; /* Increase gap between items */
+}
+
+.explore__item {
+  border: 1px solid #e0e0e0; /* Lighter border color */
+  border-radius: 10px; /* Slightly rounded corners */
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for effects */
+}
+
+.explore__item:hover {
+  transform: scale(1.02); /* Slightly enlarge item on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+.explore__item img {
+  width: 100%;
+  height: 200px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensure image covers the area without distortion */
+}
+
+.explore__item p {
+  padding: 15px;
+  font-size: 16px; /* Slightly larger font size */
+  color: #495057; /* Darker text color for better readability */
+  text-align: center; /* Center align text */
+  background-color: #fff; /* White background for text area */
+}
